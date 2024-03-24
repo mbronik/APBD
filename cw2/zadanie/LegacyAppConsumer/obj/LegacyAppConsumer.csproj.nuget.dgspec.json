@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj": {}
+    "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj": {}
   },
   "projects": {
-    "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj": {
+    "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj",
+        "projectUniqueName": "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj",
         "projectName": "LegacyAppConsumer",
-        "projectPath": "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj",
+        "projectPath": "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj",
         "packagesPath": "C:\\Users\\s25895\\.nuget\\packages\\",
-        "outputPath": "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyAppConsumer\\obj\\",
+        "outputPath": "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyAppConsumer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\s25895\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj": {
-                "projectPath": "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj"
+              "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj": {
+                "projectPath": "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj": {
+    "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj",
+        "projectUniqueName": "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj",
         "projectName": "LegacyApp",
-        "projectPath": "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj",
+        "projectPath": "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj",
         "packagesPath": "C:\\Users\\s25895\\.nuget\\packages\\",
-        "outputPath": "Z:\\Semestr 6\\APBD\\cw2\\zadanie\\LegacyApp\\obj\\",
+        "outputPath": "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\s25895\\AppData\\Roaming\\NuGet\\NuGet.Config",

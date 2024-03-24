@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LegacyApp
-build_property.ProjectDir = Z:\Semestr 6\APBD\cw2\zadanie\LegacyApp\
+build_property.ProjectDir = Z:\Semestr_6\APBD\cw2\zadanie\LegacyApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
