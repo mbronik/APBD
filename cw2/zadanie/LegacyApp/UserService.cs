@@ -14,8 +14,8 @@ namespace LegacyApp
         
         public UserService()
         {
-            userCreditService = new UserCreditService();
-            clientRepository = new ClientRepository();
+            userCreditService = new UserCreditServiceImpl();
+            clientRepository = new ClientRepositoryImpl();
         }
 
         public UserService(UserCreditService userCreditService, ClientRepository clientRepository)

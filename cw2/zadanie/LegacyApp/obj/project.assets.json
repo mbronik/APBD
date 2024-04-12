@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\s25895\\.nuget\\packages\\": {}
+    "C:\\Users\\mikib\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj",
+      "projectUniqueName": "D:\\Projects\\Studies\\APBD\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj",
       "projectName": "LegacyApp",
-      "projectPath": "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj",
-      "packagesPath": "C:\\Users\\s25895\\.nuget\\packages\\",
-      "outputPath": "Z:\\Semestr_6\\APBD\\cw2\\zadanie\\LegacyApp\\obj\\",
+      "projectPath": "D:\\Projects\\Studies\\APBD\\APBD\\cw2\\zadanie\\LegacyApp\\LegacyApp.csproj",
+      "packagesPath": "C:\\Users\\mikib\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Studies\\APBD\\APBD\\cw2\\zadanie\\LegacyApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s25895\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\mikib\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -40,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -66,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\mikib\\.dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
