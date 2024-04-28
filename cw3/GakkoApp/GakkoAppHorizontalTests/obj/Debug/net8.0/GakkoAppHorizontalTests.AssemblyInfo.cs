@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GakkoAppHorizontalTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25d2ca50c9a3bdb7596b99bbcd51d6decce316e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c9961e38eacc328936a15fc446d9a6694c429d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GakkoAppHorizontalTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GakkoAppHorizontalTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

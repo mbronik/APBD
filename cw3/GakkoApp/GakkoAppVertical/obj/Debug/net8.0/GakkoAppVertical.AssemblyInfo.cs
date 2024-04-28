@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GakkoAppVertical")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33c4332132cbcf13f23c67bcce55f66d6e6e59f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c9961e38eacc328936a15fc446d9a6694c429d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GakkoAppVertical")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GakkoAppVertical")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
