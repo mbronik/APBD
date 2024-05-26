@@ -9,17 +9,24 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.3"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="8.0.5" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="8.0.5" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="controler\" />
-      <Folder Include="repository\" />
-      <Folder Include="service\" />
+      <Folder Include="Controlers\" />
+      <Folder Include="Models\" />
+      <Folder Include="Repositories\" />
+      <Folder Include="Services\" />
     </ItemGroup>
 
 </Project>
