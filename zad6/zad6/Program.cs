@@ -1,8 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using zad6.context;
+using zad6.migration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddDbContext<Z6DbContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
