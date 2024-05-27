@@ -3,41 +3,31 @@ using Microsoft.EntityFrameworkCore;
 using zad5.Dto;
 using zad5.Models;
 
-namespace zad5.Controlers;
+namespace zad5.Services;
 
-[Route("api/trip")]
-[ApiController]
-public class TripsController : ControllerBase
+public class TripService : ITripService
 {
     private readonly ApbdContext _context;
 
-    public TripsController(ApbdContext context)
+    public TripService(ApbdContext context)
     {
         _context = context;
     }
     
-    [HttpGet]
-    public async Task<ActionResult<IEnumerable<Trip>>> GetTrips()
+    public async Task<ActionResult<IEnumerable<TripDto>>> GetTrips()
     {
         return await _context.Trips
             .OrderByDescending(t => t.DateFrom)
+            .Select(t => TripDto.Map(t))
             .ToListAsync();
     }
-    
-    [HttpPost("{idTrip}/clients")]
-    public async Task<IActionResult> AddClientToTrip(int idTrip, [FromBody] ClientTripDto dto)
+
+    public async Task<int> AddClientToTrip(int idTrip, ClientTripDto clientTripDto)
     {
-        var client = await _context.Clients.SingleOrDefaultAsync(c => c.Pesel == dto.Pesel);
+        var client = await _context.Clients.SingleOrDefaultAsync(c => c.Pesel == clientTripDto.Pesel);
         if (client == null)
         {
-            client = new Client
-            {
-                FirstName = dto.FirstName,
-                LastName = dto.LastName,
-                Email = dto.Email,
-                Telephone = dto.Telephone,
-                Pesel = dto.Pesel
-            };
+            client = clientTripDto.MapToClient();
             _context.Clients.Add(client);
             await _context.SaveChangesAsync();
         }
@@ -45,14 +35,14 @@ public class TripsController : ControllerBase
         var trip = await _context.Trips.FindAsync(idTrip);
         if (trip == null)
         {
-            return NotFound("Trip not found.");
+            throw new ArgumentException("Trip not exists");
         }
 
         var clientTripExists = await _context.ClientTrips
             .AnyAsync(ct => ct.IdClient == client.IdClient && ct.IdTrip == idTrip);
         if (clientTripExists)
         {
-            return BadRequest("Client is already registered for this trip.");
+            throw new ArgumentException("Client is already registered for this trip.");
         }
 
         var clientTrip = new ClientTrip
@@ -63,8 +53,6 @@ public class TripsController : ControllerBase
         };
 
         _context.ClientTrips.Add(clientTrip);
-        await _context.SaveChangesAsync();
-
-        return Ok(clientTrip);
+        return await _context.SaveChangesAsync();
     }
 }
