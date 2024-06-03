@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Semestr_6\\APBD\\zad6\\zad6\\zad6.csproj": {}
+    "D:\\Projects\\Studies\\APBD\\APBD\\zad6\\zad6\\zad6.csproj": {}
   },
   "projects": {
-    "Z:\\Semestr_6\\APBD\\zad6\\zad6\\zad6.csproj": {
+    "D:\\Projects\\Studies\\APBD\\APBD\\zad6\\zad6\\zad6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Semestr_6\\APBD\\zad6\\zad6\\zad6.csproj",
+        "projectUniqueName": "D:\\Projects\\Studies\\APBD\\APBD\\zad6\\zad6\\zad6.csproj",
         "projectName": "zad6",
-        "projectPath": "Z:\\Semestr_6\\APBD\\zad6\\zad6\\zad6.csproj",
-        "packagesPath": "C:\\Users\\s25895\\.nuget\\packages\\",
-        "outputPath": "Z:\\Semestr_6\\APBD\\zad6\\zad6\\obj\\",
+        "projectPath": "D:\\Projects\\Studies\\APBD\\APBD\\zad6\\zad6\\zad6.csproj",
+        "packagesPath": "C:\\Users\\mikib\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Studies\\APBD\\APBD\\zad6\\zad6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s25895\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mikib\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,13 +54,19 @@
               "target": "Package",
               "version": "[8.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[8.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -93,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\mikib\\.dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
